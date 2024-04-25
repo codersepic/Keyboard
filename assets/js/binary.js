@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.51/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.0","target":"arcade","targetVersion":"1.12.51","repo":"codersepic/keyboard"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.51/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"2.0.0","target":"arcade","targetVersion":"1.12.51","repo":"codersepic/keyboard"}
 // total=1349638 new=5.99% cached=88.43% other=5.58%
 (function (ectx) {
 'use strict';
@@ -465,7 +465,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P38246(s) {
+function _main___P38626(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1055,9 +1055,9 @@ switch (step) {
     s.callLocIdx = 69; s.pc = 45; return s.tmp_0;
   case 45:
     r0 = s.retval;
-    globals.Name___38252 = (r0);
+    globals.Name___38632 = (r0);
     s.tmp_0 = game_askForString__P22201_mk(s);
-    s.tmp_1 = r0 = globals.Name___38252;
+    s.tmp_1 = r0 = globals.Name___38632;
     s.tmp_3 = game_askForString__P22201_mk(s);
     s.tmp_3.arg0 = "What is your Name?";
     s.tmp_3.arg1 = 12;
@@ -1071,7 +1071,7 @@ switch (step) {
     s.callLocIdx = 71; s.pc = 46; return s.tmp_0;
   case 46:
     r0 = s.retval;
-    globals.Name___38252 = (r0);
+    globals.Name___38632 = (r0);
     r0 = pxsim_numops_toBoolDecr(true);
     if (!r0) { step = 1; continue; }
   case 1:
@@ -1080,13 +1080,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P38246.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P38246.continuations = [  ]
+_main___P38626.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P38626.continuations = [  ]
 
-function _main___P38246_mk(s) {
+function _main___P38626_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P38246, depth: s.depth + 1,
+        parent: s, fn: _main___P38626, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -45660,7 +45660,7 @@ const sprites_BaseSpriteSayRenderer__C21423_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["Name___38252"])
+const breakpoints = setupDebugger(1, ["Name___38632"])
 
-return _main___P38246
+return _main___P38626
 })
